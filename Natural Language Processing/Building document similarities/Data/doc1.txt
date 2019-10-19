@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dr. Sunnie Sun Chung's Home Page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0test.css" rel="stylesheet">
+    <style type="text/css">
+    .top {position: fixed;
+	top: 0px;
+	z-index:9999;
+}
+	#left1,#right1{position:absolute;top:300px;width:20%;height:100%;}  
+#left1{left:0;}
+#right1{right: 0;}
+
+
+ 
+		#mydiv {
+   background-image: url("./images/BigData.jpg");
+   background-repeat:no-repeat;
+   background-size:100%;
+}
+	header.gif{background-image:url("gif/background2.gif");background-size:100%;}
+	
+    </style>
+  </head>
+  <body >
+    <nav class="navbar navbar-expand-lg top header" style="width:100%; background-color:powderblue;" >
+     
+		  <div class="row" align="left" >
+			  <div class="col-xl-12" style="padding-left:0px; " >
+				  <div><a style="color:#F97400; font-size:24px"><strong>Big Data Analytics, AI and Cyber Security Lab</strong></a></div>
+			  <div><a><b>Dr. Sunnie Sun Chung</b></a></div>
+		  		<div><a><b>Email: s.chung@csuohio.edu</b></a></div>
+			  </div>
+  		 </div> 
+	 
+		
+	 
+		
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" > <span class="navbar-toggler-icon"></span> </button>
+	  <div align="right">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav right" style="position:fixed; right:0px" >
+          <li class="nav-item active"> <a class="nav-link" href="#Research" style="color:#F97400" ><strong>Research</strong><span class="sr-only">(current)</span></a>
+		   		
+		</li>
+		  <li class="nav-item active"> <a class="nav-link" href="#Publication" style="color:#0005FF"><strong>Publications</strong><span class="sr-only">(current)</span></a> </li>
+          
+          <li class="nav-item active "><a class="nav-link" href="#Teaching" style="color:#017023"><strong>Teaching</strong><span class="sr-only">(current)</span></a></li>
+			<li class="nav-item active"> <a class="nav-link" href="#People" style="color:#C600FC; " ><strong>People</strong><span class="sr-only">(current)</span></a> </li>
+          
+        </ul>
+     
+      </div>
+	  </div>
+  </nav>
+	
+	  
+    <header class="gif" style="padding:300px">
+		
+      
+		  
+        			
+          <div class="container">
+			  <div id="left1"> <img style="width: 200px; height: 200px;" src="gif/test2.gif"> </div>
+			  <div id="right1" align="right"> <img style="width: 200px; height: 200px;" src="gif/test3.gif"> </div>
+			  <div  class="col-xl-12" align="center">
+						<p>&nbsp;</p>						  
+				   <a class="text-center" style="color:#1D2A92; font-size:38px"><b>Big Data Analytics, AI and Cyber Security Lab</b></a>
+                              <p>&nbsp;</p>
+              <p class="text-center"><a class="btn btn-primary btn-lg" href="#Research" role="button">Learn more</a> </p>
+			  
+            </div>
+			
+      </div>
+        
+     <a name="Research"></a>
+  </header>
+	   
+  <section style="background-color:cadetblue; margin-top:auto; margin-bottom:auto; padding-bottom:40px" >
+      <div class="container" style="background-color:cadetblue" >
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-center">
+            <h2>RESEARCH AREAS</h2>
+          </div>
+        </div>
+		  
+    </div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color: beige">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/nlp1.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4" href="poster/ResearchPosters_NLPTeam.pdf"><strong>Text Analysis with Natural Language Processing </strong></a></p>
+            <p class="text-center" style="color:#0064AC"><b>�	Big Data Analytics in Text Mining with Natural Language Processing </b></p>
+			<p class="text-center" style="color:#0064AC"><b>�	Context Aware Medical Question Answering System with Natural Language Processing </b></p>
+			
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color:#E4AAF7">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/ml.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4" href="poster/JJLiu_Poster_FullDescription0914.pdf"><strong>Machine Learning</strong></a></p>
+            <p class="text-center" style="color:#0064AC"><b>�	Machine Learning Based Intrusion Detection in Wi-Fi Network Systems</b></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color:#F7BE86">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/cybersecurity.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4"><b>Cyber Security</b></a></p>
+            <p class="text-center" style="color:#0064AC"><b>�	Cyber Security and Privacy in Cloud Based Database and Data Analytic Systems</b> </p>
+			<p class="text-center" style="color:#0064AC"><b>�	Privacy Models of Cloud Based IoT</b> </p>
+			</div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color: #EFA590">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/realtime.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4" href="poster/ResearchPoster_EECS_SunnieChung_DanielleAring.pdf"> <strong>Real time </strong></a></p>
+            <p class="text-center" style="color:#0064AC"><b>�	Real time Opinion Analysis of Social Network</b></p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color: tan">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/sport2.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4"><b>Sport Analytics</b></a></p>
+            <p class="text-center" style="color:#0064AC"><b>�	Temporal and Spatial Data Processing for Sport Analytics</b></p>
+		  </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center" style="background-color: #CF9495">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/optimization.jpg" data-holder-rendered="true">
+            <p><a style="font-size:28px; color:#031FC4"><b>Optimization</b></a></p>
+			  <a name="Publication"></a>
+            <p class="text-center" style="color:#0064AC"><b>�	Optimization of Big Data Processing System</b></p>
+			 
+			 
+          </div>
+        </div>
+		</div>
+		
+	</section>
+<a name="Publication"></a>	  
+	<section style="width:100%; padding-top:40px; padding-left:20px; padding-right:20px; background-color:honeydew; padding-bottom:20px" >
+	  <a style="font-size:20px"><b>SELECTED RECENT PUBLICATIONS (LAST 3 YEARS ONLY)</b> </a>
+<br>
+	  <ul>
+		<a style="font-size:15px"><b>PEER-REVIEWED JOURNAL PUBLICATIONS</b></a><br>
+	<li>Sun Sunnie Chung and Danielle Aring, "Integrated Real-Time Big Data Stream Sentiment Analysis Service", in Journal of Data Analysis and Information Processing, Vol 6: No 2, ISSN Print: 2327-7211 ISSN Online: 2327-7203, April 2018</li>	
+		<li>Sun Sunnie Chung and Andrew Yu, �Automatic Identification and Analysis of Basketball Plays: NBA On-Ball Screens�, Accepted to be appeared in International Journal of Networked and Distributed Computing (IJNDC), Vol 7: Issue 3, ISSN Print: 2211-7938, ISSN Online: 2211-7946, July 2019</li>
+		<p></p>
+
+		<a style="font-size:15px"><b>PEER-REVIEWED CONFERENCE PROCEEDINGS </b></a>
+	
+	<li>Mike D�Arcy and Sun Sunnie Chung, �Unsupervised Topic Model Based Text Network Construction for Learning Word Embeddings�, Accepted to the 18th IEEE International Conference on Machine Learning and Applications, Boca Raton Florida, Dec 2019</li>
+		<li>Jinjie Liu and Sun Sunnie Chung, �Unsupervised Automatic Feature Selection For Machine Learning Based Wi-fi Network Intrusion Detection�, Accepted to the 18th IEEE International Conference on Machine Learning and Applications, Boca Raton Florida, Dec 2019</li>
+		<li>Sun Sunnie Chung and Jinjie Liu, �Automatic Feature Extraction and Selection for Machine Learning Based Intrusion Detection�, in the Proceedings of The 16th IEEE International Conference on Advanced and Trusted Computing, Leicester UK, August, 2019</li>
+		<li>Sunnie S. Chung and Andrew Yu, "Framework for Analysis and Prediction of NBA Basketball Plays", in the Proceedings of The 16th IEEE International Conference on Advanced and Trusted Computing, Leicester UK, August, 2019</li>
+		<li>Andrew Yu and Sun Sunnie Chung, "Automatic Identification and Analysis of Basketball Plays: NBA On-Ball Screens", in the Proceedings of the 4th IEEE International Conference on Big Data, Cloud Computing and Data Science Engineering, Honolulu, May 2019</li>
+		<p></p>
+		
+		<a style="font-size:15px"><b>PEER-REVIEWED BOOK CHAPTERS </b></a>
+<br>
+		<li>Andrew Yu and Sun Sunnie Chung, "Automatic Identification and Analysis of Basketball Plays: NBA On-Ball Screens", Invited to be published in Springer's Studies in Computational Intelligence, May 2019</li>
+		<p></p>
+		
+		<a style="font-size:15px"><b>PEER-REVIEWED/PROFESSIONAL WORKSHOP/SYMPOSIUM PRESENTATIONS </b></a>
+<br>	
+	<li>Sunnie S. Chung  and Danielle Aring, �Integrated Real-time Social Media Sentiment Analysis using a Big Data Analytic Ecosystem�, Presentation in the Workshop on Big Data and Hadoop Distributed File System, Cleveland OH, Nov 2017</li>
+		<li>Pan Li and Sunnie S Chung, �Federated EXperimental Cyber Infrastructure Testbed (EXCIT): Industry and Academia Collaboration on IoT with Case Western Reserve University. Presentation and Research Demo in IoT Collaborative Symposium, May 2017</li>
+		
+		<p></p>
+	
+		<a style="font-size:15px"><b>INVITED TALKS </b></a>
+<br>
+		<li>Invited Talk to IEEE Women Engineering Society Invited Talks on Opinion Analysis of Social Media Data, Jan 2018</li>
+		<li>Invited Talk to IEEE Computing Society Invited Talk on Big Data Analytics, August 2017</li>
+		<p></p>
+		
+		<a style="font-size:15px"><b>RESEARCH POSTERS/DEMO </b></a>
+<br>			
+		<li>Jinjie Liu and Sun Sunnie Chung, �Deep Feature Extraction and Selection for Network Intrusion Detection�, in Research Day of Engineering College, Oct 2018</li>
+		<li>Mike D�Arcy, Utkarsh Patel, and Sunnie S Chung on �Natural Language Processing with Machine Learning for Semantic Document Search Engine� in Research Day of Engineering College, Oct 2017</li>
+		<li>Sunnie S. Chung and Danielle Aring, �Integrated Real-time Social Media Sentiment Analysis using a Big Data Analytic Ecosystem� in Research Day of Engineering College, Oct 2017</li>
+		<p></p>
+		
+		<a style="font-size:15px"><b>UNDERGRADUATE SUMMER RESEARCH </b></a>	
+<br>			
+		<li>Mike D�Arcy, Utkarsh Patel on �Semantic Document Search with Machine Learning� Summer 2017 Funded by CSU</li>
+		<li>Mike D�Arcy on �Semantic Document Search with Machine Learning� Summer 2018 Funded by CSU</li>
+		<p></p>
+		
+		
+
+		<a style="font-size:15px"><b>RESEARCH GRANTS / PROPOSALS (LAST 4 YEARS ONLY) </b></a>
+<br>
+		<li>IoT Collaborative Pilot Grant Proposal titled �Protect Privacy in a Distributed Learning Platform with a Natural Language Processing Example.� in Collaboration with Ming-Chun Huang (CWRU): Awarded on Dec 2018 in the amount of $20,000.00</li>
+		<li>NSF 17-570 Computer and Network Systems (CNS) Grant Proposal titled �Democratized Computing System Design for Privacy-Sensitive Cloud/Edge Environment� Submitted on Nov 2018 </li>	
+		<li>Initial Seed Grant Proposal to Cleveland Foundation for Data Analytics and Cyber Security, Sunnie Chung, Dec 2015 under acknowledgement of formal CSU President Berkman and Executive Resident Dr. Julien Earl (Now Developed to IoT Collaborative CWRU-CSU Lead by Dean Sridhar)</li>	
+		<li>IoT Collaborative Grant Award: Federated EXperimental Cyber Infrastructure Testbed (EXCIT): Industry and Academia Collaboration, Pan Li (CWRU), Sunnie Chung, and Wenbing Zhao (CSU). Award $20,000 on May 2017  </li>	
+		<li>FRD-IOT Proposal on Cyber Security and Privacy in IoT Infrastructures on Public Cloud, Sept 2017</li>
+		<li>Grant Proposal; Sunnie Chung(CSU), Pan Li (Case) �Cyber Security and Privacy of IoT on Public Cloud with Encrypted Database Querying�, to Cleveland Foundation, July 2017</li>	
+		<li>NSF Proposal Intension, Sunnie Chung, Douglas Meil (IBM) and Brian Durkin (Progressive): "Intent of Submission of Proposal for Award Abstract #1550320 in BD Hubs: MIDWEST: SEEDCorn"</li>
+		<p></p>
+		
+		<a style="font-size:15px"><b>TEACHING GRANTS / PROPOSALS (LAST 4 YEARS ONLY) </b></a>	
+<br>		
+		<li>University Tech Support Award for Big Data Teaching Lab in Computer Science: Awarded in the amount of $12,648, April 2018</li>	
+		<li>Built Big Data Analytics Research Lab (FH305) in EECS Dept, College of Engineering, Sept 2018</li>
+		
+		<li>Grant Proposal on Cross-Disciplinary Course Development for Big Data Analytics Systems in Cloud based IoT�, Sunnie Chung (CSU), Pan Li, (Case Western Reserve University) to Cleveland Foundation, July 2017</li>	
+		<p></p>
+		
+		<a style="font-size:15px"><b> AWARD WINNING SENIOR DESIGN PROJECTS</b></a>	
+<br>			
+		<li><///a href="Cerebro Poster v3NickWhite.pdf"> Cerebro: Real Time Security Service  (The First Prize Winner of 2016 Senior Design in College of Engineering) </a> by Nick White, et al </li>
+		<li><///a href="Senior Design Posters_ NLP Team.pdf"> Semantic Document Search with Machine Learning: Sharesci (The Best CS Senior Project Winner of 2018) </a> by Mike D'Arcy and Utkarsh Patel</li>
+		<li><///a href="UrbanRealEstateSeniorDesign_poster.pdf"> Urban Real Estate Analytic Service (The Candidate of Best Senior Project 2019 in College of Engineering) </a> by Joel Stell et. al.</li>
+
+	</ul>
+
+		<a style="font-size:20px"><b>Selective Publications Before 2015</b></a>
+		<ul>
+		<a style="font-size:20px"><b>Research & Publications</b></a>
+<br>		
+
+<li>Sun S. Chung, D. Chung, �Fault Detection and Diagnostics using Data Mining�, in the Proceeding of 8th WCEAM, International Conference on Engineering Asset Management, HongKong China, Oct 2013.</li>
+<li>Sun S. Chung, D. Chung, �INTEGRATED ASSET MANAGEMENT WITH CUSTOMIZED DATA WAREHOUSE�, 7th WCEAM, International Conference on Engineering Asset Management, Deajeon South Korea, Oct 2012.</li>
+<li> White Paper on Completed Kelly Benchmark Performance Optimization of Secondary Join Index Processing for Temporal Tables in Temporal Database in in MPP Parallel Data Warehouse (PDW) System, Optimizer R&D, DBS, Teradata Corp, El Segundo/San Diego, 2011.</li>
+<li> Survey Paper on Research, Proposal and Presentation on Optimization of Correlated Subquery Processing in Major DBMS Industry, Teradata Corp. El Segundo/San Diego, 2010.</li>
+<li> White Paper on Research Project: Building SQL-Map Reduce for Big Data Processing in in MPP Parallel Data Warehouse (PDW) System, Teradata Corp. El Segundo/San Diego, 2010.</li>
+<li> White Paper on Building Temporal Database in in MPP Parallel Data Warehouse (PDW) System, Teradata Corp. El Segundo/San Diego, 2009.</li>
+<li> White Paper on Join Index Processing for Columnar Partitioning Database in MPP Parallel Data Warehouse (PDW) System, Teradata Corp. El Segundo/San Diego, 2009.</li>
+<li> Invention Disclosure Record (IDR) for Teradata on Extension of Null Equality Optimization In the Query Rewrite System, 2009 � in the process of  Patent under Teradata Corp, El Segundo/San Diego, 2009.</li>
+<li> White Paper on Predicate Simplification Optimization for Query Rewrite Subsystem in Data Warehouse System, , Teradata, NCR, El Segundo/San Diego, 2008</li>
+
+<li> White Paper on Mark_Null_Equal Query Optimization in Query Rewrite Subsystem in Data Warehouse System, , Teradata, NCR, El Segundo/San Diego, 2007</li>
+<li><i>Processing Aggregate Queries over Encrypted Databases</i><br>
+Sun S. Chung, Gultekin Ozsoyoglu, Accepted to <i> 2nd International IEEE Workshop on Privacy Data Management-Joint with ICDE 2006, </i> April 2006.<br>
+  </li>
+
+<li><i>Anti-Tamper Databases - Part I: Querying Encrypted Databases</i><br>
+Sun Chung, David Singer, and Gultekin Ozsoyoglu, <i> VLDB Journal On Privacy Preserving Data Management, </i> September 2005.<br>
+  </li>
+<li><i>Querying Encrypted Databases - Part II: Processing Aggregate Queries</i><br>
+Sun Chung and Gultekin Ozsoyoglu, <i>Journal Of Privacy Technology, </i> 2005.<br>
+  </li>
+<li> <i>Anti-Tamper Database: Querying Encrypted Databases - Extended Work</i><br>
+Gultekin Ozsoyoglu, David Singer, and Sun Chung, in Book Chapter of <i>Research Directions in Data and Application Security XVIII, </i> Sabrina De Capitani di Vimercati et al., (eds), Kluwer Academic Publisher, Prague, Boston, 2004.<br>
+  </li>
+<li><i>Anti-Tamper Database: Querying Encrypted Databases</i><br>
+Gultekin Ozsoyoglu, David Singer, and Sun Chung, in Proceedings of <i>17th IFIP 11.3 International Conference on Data and Application Security,</i> Estate Park, Colorado, U.S.A., August, 2003<br>
+  </li>
+<a style="font-size:20px"><b>Ph.D. Thesis</b></a>		
+	<li><i>Database Security: Anti-Tamper Databases: Querying Encrypted Databases</i><br>
+Sun S. Chung, <i> Department of EECS, Case Western Reserve University,</i> September, 2006.<br>	</li>
+
+<a name="Teaching"></a>
+</ul>
+		
+		
+		
+		</section>
+	
+	 <section style="background-color:white; margin-top:auto; padding-top:20px; padding-bottom:30px">
+	   
+<div class="container">
+    <div class="row">
+          <div class="col-12 mb-2 text-center">
+            <h2>Teaching</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <h3>Advanced Databases</h3>
+			 <p> <a href="http://cis.csuohio.edu/~sschung/cis611/CIS611.html" style="color:black"> CIS 611/CIS711 Enterprise Databases and Data Warehouse with OLAP</a></p>
+		    <p> <a href="http://cis.csuohio.edu/~sschung/cis612/CIS612.html" style="color:black">CIS 612/CIS712 Big Data and Parallel Data Processing Systems </a></p>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+          </div>
+		<div class="col-sm-6 col-lg-4">
+            <h3>Big Data Analytics</h3>
+			  <p><a href="http://cis.csuohio.edu/~sschung/CIS660/CIS660.html" style="color:black"> CIS 660/CIS760 Data Analytics </a></p>
+			  <p> <a  style="color:black">CIS 695 Special Topics on Data Analytics and Big Data Processing</a></p>
+			<p><a href="http://cis.csuohio.edu/~sschung/CIS601/CIS601.html" style="color:black">CIS 601 Graduate Seminar in Computer Science</a> </p>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Enterprise Databases</h3>
+            <p><a href="http://cis.csuohio.edu/~sschung/IST734/IST734.html" style="color:black"> IST 734 Enterprise Databases </a></p>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+          </div>
+          
+          <div class="col-sm-6 col-lg-4">
+            <h3>Databases</h3>
+			  <p><a href="http://cis.csuohio.edu/~sschung/cis430/CIS430.html" style="color:black">CIS 430/530 Database Systems and Processing</a></p>
+			  <p><a href="http://cis.csuohio.edu/~sschung/IST331/IST331.html" style="color:black">IST 331 Modern Database Design and Implementation</a></p>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Other Courses</h3>
+			  <p><a href="http://cis.csuohio.edu/~sschung/CIS408/CIS408.html" style="color:black"> CIS 408 Internet Computing </a></p>
+			  <p> <a href="http://cis.csuohio.edu/~sschung/CIS465/CIS465.html" style="color:black">CIS 465 Multimedia</a></p>
+			  <p><a href="http://cis.csuohio.edu/~sschung/CIS433/CIS433.html" style="color:black">CIS 433 System Analysis Methods</a> </p>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Introduction</h3>
+			  
+		    <p> <a href="http://cis.csuohio.edu/~sschung/CIS260/CIS260.html" style="color:black">CIS 260/500 Introduction to Programming in Java</a></p>
+			  <p><a href="http://cis.csuohio.edu/~sschung/ESC120/ESC120.html" style="color:black">ESC 120 Introduction To Engineering Design</a></p>
+			  <p><a href="http://cis.csuohio.edu/~sschung/ESC151/ESC151.html" style="color:black">ESC 151 C Programming</a> </p>
+			 <a name="People"></a>
+            <p><a class="btn btn-link" href="index_old_teaching.html">View details �</a></p>
+			 
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+  <section class="jumbotron" style="background-color:gray; margin-top:auto; margin-bottom:auto;" >
+	  <div class="container">
+		<div class="row">
+          	<div class="col-sm-12 mt-4 mb-2 text-center">
+            <h2>People</h2>
+          </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail" alt="140x140" style="width: 400px; height: 340px;" src="images/BigdataLabPic1.jpg" data-holder-rendered="true">
+			  <p class="mb-0">Big Data Analytic Research Members 2016 </p>
+            </blockquote>
+          </div>
+<div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail" alt="140x140" style="width: 400px; height: 340px;" src="images/TextAnalysisNLPResearchTeam.jpg" data-holder-rendered="true">
+			  <p class="mb-0"> Text Analysis NLP Research Team 2018 </p>
+            </blockquote>
+          </div><div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail" alt="140x140" style="width: 400px; height: 340px;" src="images/TextAnalysisNLPResearchTeam2.jpg" data-holder-rendered="true">
+			  <p class="mb-0"> Text Analysis NLP Research Team 2018 </p>
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail" alt="140x140" style="width: 400px; height: 340px;" src="images/AIBigDataLab.jpg" data-holder-rendered="true">
+			  <p class="mb-0">Big Data Analytic Research Members 2019</p>
+            </blockquote>
+          </div>
+	<div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail"  alt="140x140" style="width: 400px; height: 340px;" src="images/UrbanRealEstateTeam.jpg" data-holder-rendered="true">
+			  <p class="mb-0">Urban Real Estate Research Team</p>
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail" alt="140x140" style="width: 400px; height: 340px;" src="images/Andrew_BCD2019.jpg" data-holder-rendered="true">
+				
+			  <p class="mb-0"> BCD International IEEE Conference 2019 at Hawaii </p>
+				
+            </blockquote>
+			
+          </div>
+  <div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail"  alt="140x140" style="width: 400px; height: 340px;" src="images/WorkshopBigdataLab.jpg" data-holder-rendered="true">
+				
+			  <p class="mb-0">Big Data Lab Workshop 2017</p>
+				
+            </blockquote>
+          </div>
+
+<div class="col-sm-6 col-lg-6" align="center">
+            <blockquote class="blockquote">
+			  <img class="img-thumbnail"  alt="140x140" style="width: 400px; height: 340px;" src="images/BigDataWorkshop2019CSU.jpg" data-holder-rendered="true">
+				
+			  <p class="mb-0">Big Data Lab Workshop 2019</p>
+				
+            </blockquote>
+</div>	
+          </div>
+
+        
+      </div>
+	  </section>
+		
+
+  
+  <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="jumbotron">
+            <div class="row text-center">
+              <div class="text-center col-12">
+                <h2>Send Email to Find Out How to Start Learning and Research Big Data Analytics </h2>
+              </div>
+              <div class="text-center col-12">
+                <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+                <form id="feedbackForm" class="text-center">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
+                    <span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                    <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
+                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
+                  </div>
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>CSUOHIO</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
